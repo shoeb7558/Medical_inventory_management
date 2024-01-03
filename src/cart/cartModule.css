@@ -1,0 +1,14 @@
+.listyle{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 50%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #E9F7EF;
+    border-radius: 20px;
+    margin: 5px;
+}

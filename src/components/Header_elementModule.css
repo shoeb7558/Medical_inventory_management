@@ -1,0 +1,21 @@
+.inputElement{
+    margin: 10px;
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+    padding-left: 10px;
+
+}
+.HearderDiv{
+    height: 100px;
+    background-color: beige;
+    padding-top: 30px;
+}
+.inputButton{
+    margin: 10px;
+    border-radius: 5px;
+    width: 100px;
+    height: 35px;
+    background-color: #D2B4DE;
+    
+}
