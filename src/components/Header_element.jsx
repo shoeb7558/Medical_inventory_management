@@ -17,13 +17,14 @@ function Header_element({ onsubmit, onCartOpen }) {
       quantity: quantity,
     };
 
-    // Check if onsubmit is provided and is a function before calling it
+    
     if (onsubmit && typeof onsubmit === 'function') {
       onsubmit(newData);
     }
 
     // Update the data array with the new object
     setdata([...data, newData]);
+    
 
     // Clear the input fields after adding data
     setname('');

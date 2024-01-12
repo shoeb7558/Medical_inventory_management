@@ -9,7 +9,7 @@ function ListItem({ itemList, onAddToCart }) {
   }, [itemList]);
 
   const handleAddToCart = (item) => {
-    // Decrease the quantity by 1
+    
     const updatedItem = { ...item, quantity: item.quantity - 1 };
 
     // Call the onAddToCart callback with the updated item
